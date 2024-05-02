@@ -1,14 +1,14 @@
 :root {
-    width: 100%;
     background: black;
+    padding: 40px;
 }
 .App {
     width: 1280px;
     height: 720px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    padding-top: 120px;
 
     background: #FFFFFF;
     font-family: 'Montserrat', serif;

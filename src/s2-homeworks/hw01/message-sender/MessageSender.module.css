@@ -44,8 +44,10 @@
 }
 
 .button:hover {
-
+    background: greenyellow;
+    color: black;
 }
 .button:active {
-
+    background: black;
+    color: #FFFFFF;
 }
