@@ -2,19 +2,31 @@
 }
 
 .input {
+    min-width: 372px;
+    min-height: 36px;
+    border: 1px solid #D1D1D1
 }
 
 .inputWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border: 1px solid #CC1439
 }
 
 .errorInput:focus {
 }
 
 .error {
+    position: absolute;
+    top: -20px;
+    color: #CC1439;
+    font-weight: 400;
+    font-size: 10px;
 }
